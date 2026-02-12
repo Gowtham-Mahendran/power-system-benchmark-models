@@ -2,56 +2,30 @@
 
 This repo serves as a single-source collection of test bench models commonly used in power-system studies. These includes models from IEEE test-systems, Nordic systems etc., All the models here are collected from publicly available sources and data can be downloaded from the official pages. The link to the sources are provided for easier navigation.
 
-**Descriptions are yet to be added after verification of each test systems**
+**Descriptions for some of the test systems are yet to be added**
 
-## Power Flow Benchmarks
+## IEEE Test Systems
 
-### IEEE Test Systems
+| Test System | Description | Source |Usability|
+|-------------|:-----------:|--------|:-------:|
+|IEEE 9-Bus   | WSCC 9-bus system introduced in Power system control and stability book | • [TAMU](https://electricgrids.engr.tamu.edu/about-us/wscc-9-bus-system/) <br> • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-9-bus-modified-test-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br> ![Transient](https://img.shields.io/badge/TR-orange)|
+|IEEE 14-Bus  | Simplified model of transmission system in midwest US | • [UW](https://labs.ece.uw.edu/pstca/pf14/pg_tca14bus.htm)  • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-14-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-14-bus-modified-test-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br> ![Transient](https://img.shields.io/badge/TR-orange)|
+|IEEE 30-Bus  |             | • [UW](https://labs.ece.uw.edu/pstca/pf30/pg_tca30bus.htm) • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-30-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-30-bus-modified-test-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br> ![Transient](https://img.shields.io/badge/TR-orange)|
+|IEEE 39-Bus  |Simplified model of transmission system on New England area in NE USA| • [TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/new-england-ieee-39-bus-system) • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-39-bus-modified-test-system/)|![Transient](https://img.shields.io/badge/TR-orange)|
+|IEEE 57-Bus  |Simple approximation of the American Electric Power system in Midwest US| • [UW](https://labs.ece.uw.edu/pstca/pf57/pg_tca57bus.htm) • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-57-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-57-bus-modified-test-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br>  ![Transient](https://img.shields.io/badge/TR-orange)|
+|IEEE 118-Bus |Simple approximation of the American Electric Power system in Midwest US| • [UW](https://labs.ece.uw.edu/pstca/pf118/pg_tca118bus.htm) • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-118-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-118-bus-modified-test-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br>  ![Transient](https://img.shields.io/badge/TR-orange)|
+|IEEE 300-Bus |             | • [UW](https://labs.ece.uw.edu/pstca/pf300/pg_tca300bus.htm) • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-300-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-300-bus-modified-test-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br>  ![Transient](https://img.shields.io/badge/TR-orange)|
 
-| Test System | Description | Source |
-|-------------|-------------|--------|
-|IEEE 9-Bus   |             | • [TAMU](https://electricgrids.engr.tamu.edu/about-us/wscc-9-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-9-bus-modified-test-system/)|
-|IEEE 14-Bus  |             | • [UW](https://labs.ece.uw.edu/pstca/pf14/pg_tca14bus.htm) <br>  • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-14-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-14-bus-modified-test-system/)|
-|IEEE 24-Bus  |             | • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-24-bus-system/)|
-|IEEE 30-Bus  |             | • [UW](https://labs.ece.uw.edu/pstca/pf30/pg_tca30bus.htm) <br>  • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-30-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-30-bus-modified-test-system/)|
-|IEEE 39-Bus  |             | • [UE](https://webhomes.maths.ed.ac.uk/OptEnergy/NetworkData/39buscase)<br>  • [TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/new-england-ieee-39-bus-system) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-39-bus-modified-test-system/)|
-|IEEE 57-Bus  |             | • [UW](https://labs.ece.uw.edu/pstca/pf57/pg_tca57bus.htm) <br>  • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-57-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-57-bus-modified-test-system/)|
-|IEEE 118-Bus |             | • [UW](https://labs.ece.uw.edu/pstca/pf118/pg_tca118bus.htm) <br>  • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-118-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-118-bus-modified-test-system/)|
-|IEEE 300-Bus |             | • [UW](https://labs.ece.uw.edu/pstca/pf300/pg_tca300bus.htm) <br>  • [TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-300-bus-system/) <br>  • [UC(M)](https://www.kios.ucy.ac.cy/testsystems/index.php/ieee-300-bus-modified-test-system/)|
+## Classical stability Test Systems
 
-### Other Test Systems
-
-| Test System | Description | Source |
-|-------------|-------------|--------|
-|5-bus system|  |[UL](https://thierryvancutsem.github.io/home/software.html)|
-|Kundur test system|   |[UL](https://thierryvancutsem.github.io/home/software.html)|
-|Kundur 2-area |   |[TAMU](https://electricgrids.engr.tamu.edu/about-us/two-area-system/)|
-|IEEE 96-RTS  |    |[TAMU](https://electricgrids.engr.tamu.edu/about-us/ieee-96-rts-test-system/)|
-|Polish Grid|  |[TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/polish-grid/)|
-|Iceland 118-Bus|   |[UE](https://webhomes.maths.ed.ac.uk/OptEnergy/NetworkData/iceland)|
-|IEEE Nordic test system|  |[UL](https://thierryvancutsem.github.io/home/software.html)|
-
-## Dynamic / RMS Stability Benchmarks
-
-| Test System       | Description   | Source |
-|-------------------|---------------|--------|
-|162-Bus            |               |[UW](https://labs.ece.uw.edu/pstca/dyn17/pg_tcadd17.htm) |
-|30-Bus New England |               |[UW](https://labs.ece.uw.edu/pstca/dyn30/pg_tcadyn30.htm) |
-|145-Bus            |               |[UW](https://labs.ece.uw.edu/pstca/dyn50/pg_tcadd50.htm) |
-|Iceland Network 118-Bus  |               |[UE](https://webhomes.maths.ed.ac.uk/OptEnergy/NetworkData/icelandDyn)|
-
-
-## Small-Signal Stability Benchmarks
-
-
-| Test System       | Description   | Source |
-|-------------------|---------------|--------|
-|Three Machines Infinite Bus Benchmark System|           |[TAMU](https://electricgrids.engr.tamu.edu/about-us/three-machines-infinite-bus-benchmark-system/)|
-|Brazilian Seven Bus System|           |[TAMU](https://electricgrids.engr.tamu.edu/about-us/brazilian-seven-bus-system/)|
-|Two Area System               |           |[TAMU](https://electricgrids.engr.tamu.edu/about-us/four-generator-system/)|
-|New England IEEE 39-Bus System|           |[TAMU](https://electricgrids.engr.tamu.edu/about-us/new-england-ieee-39-bus-system/)|
-|Simplified 14-Generator Australian Power System|           |[TAMU](https://electricgrids.engr.tamu.edu/about-us/simplified-14-generator-australian-power-system/)|
-|New England 68-Bus Test System|           |[TAMU](https://electricgrids.engr.tamu.edu/about-us/new-england-68-bus-test-system/)|
+| Test System | Description | Source |Usability|
+|-------------|:-----------:|--------|:-------:|
+|Kundur 2-area| 2-area system introduced in Power system stability and control book|• [TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/two-area-system/) <br>  • [TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/four-generator-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br> ![Transient](https://img.shields.io/badge/TR-orange)|
+|3-Machines Infinite Bus|           |[TAMU](https://electricgrids.engr.tamu.edu/about-us/three-machines-infinite-bus-benchmark-system/)| ![Transient](https://img.shields.io/badge/TR-orange)|
+|New England 30-Bus|               |[UW](https://labs.ece.uw.edu/pstca/dyn30/pg_tcadyn30.htm) | ![Transient](https://img.shields.io/badge/TR-orange)|
+|New England 68-Bus|Reduced order equivalent of the interconnected New England <br>test system (NETS) and New York power system (NYPS)|[TAMU](https://electricgrids.engr.tamu.edu/about-us/new-england-68-bus-test-system/)| ![Transient](https://img.shields.io/badge/TR-orange)|
+|Nordic 32|  |[UL](https://orbi.uliege.be/handle/2268/141234)|![Transient](https://img.shields.io/badge/TR-orange)|
+|Polish Grid|  |[TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/polish-grid/)|![Transient](https://img.shields.io/badge/TR-orange)|
 
 
 <!-- ## CIGRE Benchmarks -->
