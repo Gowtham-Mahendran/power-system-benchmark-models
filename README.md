@@ -4,21 +4,6 @@ This repo serves as a single-source collection of test bench models commonly use
 
 **Descriptions for some of the test systems are yet to be added**
 
-<style>
-    table th:first-of-type {
-        width: 15%;
-    }
-    table th:nth-of-type(2) {
-        width: 60%;
-    }
-    table th:nth-of-type(3) {
-        width: 10%;
-    }
-    table th:nth-of-type(4) {
-        width: 5%;
-    }
-</style>
-
 ## IEEE Test Systems
 
 | Test System | Description | Source |Usability|
@@ -36,9 +21,9 @@ This repo serves as a single-source collection of test bench models commonly use
 | Test System | Description | Source |Usability|
 |-------------|:-----------:|--------|:-------:|
 |Kundur 2-area| 2-area system introduced in Power system stability and control book|• [TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/two-area-system/) <br>  • [TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/four-generator-system/)|![Steady-State](https://img.shields.io/badge/SS-blue) <br> ![Transient](https://img.shields.io/badge/TR-orange)|
-|3-Machines Infinite Bus|           |• [TAMU](https://electricgrids.engr.tamu.edu/about-us/three-machines-infinite-bus-benchmark-system/)| ![Transient](https://img.shields.io/badge/TR-orange)|
-|New England 30-Bus|               |• [UW](https://labs.ece.uw.edu/pstca/dyn30/pg_tcadyn30.htm) | ![Transient](https://img.shields.io/badge/TR-orange)|
-|New England 68-Bus|Reduced order equivalent of the interconnected New England <br>test system (NETS) and New York power system (NYPS)|• [TAMU](https://electricgrids.engr.tamu.edu/about-us/new-england-68-bus-test-system/)| ![Transient](https://img.shields.io/badge/TR-orange)|
+|3-Machines <br>Infinite Bus|           |• [TAMU](https://electricgrids.engr.tamu.edu/about-us/three-machines-infinite-bus-benchmark-system/)| ![Transient](https://img.shields.io/badge/TR-orange)|
+|New England <br>30-Bus|               |• [UW](https://labs.ece.uw.edu/pstca/dyn30/pg_tcadyn30.htm) | ![Transient](https://img.shields.io/badge/TR-orange)|
+|New England <br>68-Bus|Reduced order equivalent of the interconnected New England test system<br> (NETS) and New York power system (NYPS)|• [TAMU](https://electricgrids.engr.tamu.edu/about-us/new-england-68-bus-test-system/)| ![Transient](https://img.shields.io/badge/TR-orange)|
 |Nordic 32|  |• [UL](https://orbi.uliege.be/handle/2268/141234)|![Transient](https://img.shields.io/badge/TR-orange)|
 |Polish Grid|  |• [TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/polish-grid/)|![Transient](https://img.shields.io/badge/TR-orange)|
 
