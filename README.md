@@ -28,4 +28,6 @@ This repo serves as a single-source collection of test bench models commonly use
 |Polish Grid|  |[TAMU](https://electricgrids.engr.tamu.edu/electric-grid-test-cases/polish-grid/)|![Transient](https://img.shields.io/badge/TR-orange)|
 
 
-<!-- ## CIGRE Benchmarks -->
+## CIGRE Benchmarks
+
+[EMT Benchmarks](https://github.com/JeanMahseredjian/EMT_Benchmarks)
